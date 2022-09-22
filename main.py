@@ -18,6 +18,7 @@ async def root():
 
 #what it does is that it gets the data from the body,
 # store it in a dict called payload and then Prints it.
+
 @app.post("/createpost")
 def root(payload: dict = Body(...)):
     print(payload)
