@@ -86,6 +86,8 @@ def get_post(id : int, response : Response):
 
     return {"Post": post}
 
+
+
 #Deleting a post
 #For deleting a post we have to specify an id or index for the post to be deleted.
 #Default 204 for delete
