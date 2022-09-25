@@ -26,6 +26,7 @@ def root(payload: dict = Body(...)):
     print(payload)
     return {"message": "Succesfully recieved"}
 
+
 # class specifies the data type for the input to the frontend. It can be str, int, bool etc
 
 class Post(BaseModel):
